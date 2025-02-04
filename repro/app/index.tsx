@@ -25,6 +25,11 @@ export default function Index() {
         title="http://localhost:8081/api/hello"
         onPress={() => makeRequest('http://localhost:8081/api/hello')}
       />
+      {/* Replace the IP with dev server local IP address */}
+      <Button
+        title="http://192.168.0.219:8081/api/hello"
+        onPress={() => makeRequest('http://192.168.0.219:8081/api/hello')}
+      />
     </View>
   )
 }
