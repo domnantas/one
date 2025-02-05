@@ -6,7 +6,7 @@ import { AppTab } from '~/features/app/AppTab'
 import { DataTab } from '~/features/data/DataTab'
 import { RovingTabs } from '~/features/ui/RovingTabs'
 
-export function HomePage() {
+export default function HomePage() {
   // this is one way we could communicate between the node cli and the devtools
   useEffect(() => {
     try {

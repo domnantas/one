@@ -69,7 +69,7 @@ export async function loader({ params }) {
   }
 }
 
-export function PostPage() {
+export default function PostPage() {
   const data = useLoader(loader)
 
   const navigation = useNavigation()

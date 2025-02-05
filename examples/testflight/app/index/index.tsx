@@ -10,7 +10,7 @@ import { feed as allFeed } from '~/code/data'
 
 const feed = allFeed.slice(0, 16)
 
-export function FeedPage() {
+export default function FeedPage() {
   const scrollViewRef = useRef<ElementRef<typeof ScrollView>>(null)
   useScrollToTop(scrollViewRef)
 

@@ -25,7 +25,7 @@ export async function loader({ params }) {
   }
 }
 
-export function DocCorePage() {
+export default function DocCorePage() {
   const { code, frontmatter } = useLoader(loader)
   const Component = useMemo(() => getMDXComponent(code), [code])
 

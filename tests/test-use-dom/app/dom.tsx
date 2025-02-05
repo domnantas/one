@@ -2,7 +2,7 @@
 
 import { DomComponent } from '~/src/DomComponent'
 
-export function DomPage() {
+export default function DomPage() {
   return (
     <div
       style={{

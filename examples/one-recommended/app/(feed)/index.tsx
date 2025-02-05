@@ -49,7 +49,7 @@ export async function loader({ path }: LoaderProps) {
   }
 }
 
-export function FeedPage() {
+export default function FeedPage() {
   const { feed } = useLoader(loader)
 
   return (

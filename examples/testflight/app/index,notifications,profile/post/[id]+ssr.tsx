@@ -7,8 +7,7 @@ import { FeedCard } from '~/code/feed/FeedCard'
 import { PageContainer } from '~/code/ui/PageContainer'
 import { feed, replies } from '~/code/data'
 
-
-export function PostPage() {
+export default function PostPage() {
   const postData =
     feed.find((item) => item.id.toString() === (useParams() as any).id || '') || feed[0]
   const data = {
